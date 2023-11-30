@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practicas</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <header>
+    <h1>Practicas y tareas Arquitectura de computadoras PDFS</h1>
+    <div class="buttons">
+        <button onclick="window.location.href = 'Unidad4.html';">Anterior</button>
+        <button onclick="window.location.href = '../index.html';">Menu</button>
+      </div>
+  </header>
+<div class="container">
+    <div class="box" onclick="window.location.href = '../Practicas/Practica1.pdf';">
+        <img src= "../Media/Img/Practica1.jpg" alt="Imagen 1">
+        <div class="content">
+            <p>Practica 1</p>
+        </div>
+    </div>
+     <div class="box" onclick="window.location.href = '../Practicas/Practica2.pdf';">
+      <img src="../Media/Img/Practica2.avif" alt="Imagen 2">
+      <div class="content">
+        <p>Practica 2</p>
+      </div>
+    </div>
+	
+	<div class="box" onclick="window.location.href = '../Practicas/Practica3.pdf';">
+      <img src="../Media/Img/Practica3.webp" alt="Imagen 3">
+      <div class="content">
+        <p>Practica 3</p>
+      </div>
+    </div>
+	
+	<div class="box" onclick="window.location.href = '../Practicas/Practica4.pdf';">
+      <img src="../Media/Img/Practica4.jpg" alt="Imagen 4">
+      <div class="content">
+        <p>Practica 4</p>
+      </div>
+    </div>
+	
+	
+    <div class="box" onclick="window.location.href = '../Practicas/Procesadores.pdf';">
+      <img src="../Media/Img/Procesadores.avif" alt="Imagen 5">
+      <div class="content">
+        <p>Procesadores</p>
+      </div>
+    </div>
+    <div class="box" onclick="window.location.href = '../Practicas/equiposdecomputo.pdf';">
+      <img src="../Media/Img/Gama.jpg" alt="Imagen 6">
+      <div class="content">
+        <p>Equipos de Computo</p>
+      </div>
+    </div>
+    <div class="box" onclick="window.location.href = '../Practicas/Cotizacion.pdf';">
+      <img src="../Media/Img/cotizacion.webp" alt="Imagen 7">
+      <div class="content">
+        <p>Cotizacion</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Pie de Página -->
+  <footer>
+    <h6>&copy; <span id="currentYear"></span> Ivan Alberto Estopier Rdz. Todos los derechos reservados.</h6>
+  </footer>
+
+  <script>
+    // Configurar el año actual en el pie de página
+    document.getElementById('currentYear').innerText = new Date().getFullYear();
+  </script>
+
+</html>
